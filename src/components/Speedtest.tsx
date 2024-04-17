@@ -10,8 +10,8 @@ export const Speedtest : React.FC = () => {
         runTest();
     }
   return (
-    <div>
-        <button onClick={test}>
+    <div className=''>
+        <button onClick={test} className='bg-gray-600 p-2 text-white rounded'>
             Run Test
         </button>
         <h1>

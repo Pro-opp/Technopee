@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "Video Downloader",
+      "description": "Download videos from popular video sharing websites.",
+      "link": "/video-downloader"
+    },
+    {
+      "id": 2,
+      "name": "Background Remover",
+      "description": "Remove background from images automatically.",
+      "link": "/background-remover"
+    },
+    {
+      "id": 3,
+      "name": "Image Compressor",
+      "description": "Compress images to reduce file size without losing quality.",
+      "link": "/image-compressor"
+    },
+    {
+      "id": 4,
+      "name": "Code Editor",
+      "description": "Write and test code in a browser-based editor.",
+      "link": "/code-editor"
+    },
+    {
+      "id": 7,
+      "name": "QR Code Generator",
+      "description": "Generate QR codes for URLs, text, and more.",
+      "link": "/qr-code-generator"
+    }
+  ]
+  
