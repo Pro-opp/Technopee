@@ -1,7 +1,7 @@
-import { Speedtest } from '@/components/Speedtest'
-import React from 'react'
+import React  from 'react'
+import Navbar from '@/components/Youtube/Navbar';
 
-function page() {
+const page  = () => {
   return (
     <div className='bg-white'
     >
@@ -18,11 +18,9 @@ function page() {
             }}
           />
       </div>
-    <div className='min-h-screen flex flex-col px-6 pt-10 lg:px-8  items-center isolate'>
-        <h2 className='py-16 text-4xl text-gray-800 font-bold text-center md:text-6xl'>
-        Check Your Internet Speed
-      </h2>
-        <Speedtest />
+    <div className='min-h-screen flex flex-col md:p-6 pt-6 md:pt-14 lg:px-8  items-center isolate'>
+        <h1 className='md:py-10 py-4 text-2xl font-bold text-center md:text-6xl'>Youtube Downloader</h1>
+        <Navbar/>
     </div>
     <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
