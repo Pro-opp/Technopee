@@ -13,6 +13,7 @@
     "@headlessui/react": "^1.7.18",
     "@heroicons/react": "^2.1.3",
     "@rtbjs/network-speed-test": "^1.0.2",
+    "@zhbhun/background-removal": "^1.0.8",
     "axios": "^1.6.8",
     "express": "^4.19.2",
     "fs": "^0.0.1-security",
