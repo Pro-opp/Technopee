@@ -1,7 +1,46 @@
-import BackgroundRemoverComponent from '@/components/Remove'
 import React from 'react'
 
-function page() {
+const data = [
+  {
+    "id": 1,
+    "name": "Youtube Video Downloader",
+    "description": "Download videos from popular video sharing websites.",
+    "link": "/video-downloader"
+  },
+  {
+    "id": 2,
+    "name": "Background Remover",
+    "description": "Remove background from images automatically.",
+    "link": "/background-remover"
+  },
+  {
+    "id": 3,
+    "name": "Image Compressor",
+    "description": "Compress images to reduce file size without losing quality.",
+    "link": "/image-compressor"
+  },
+  {
+    "id": 4,
+    "name": "Code Editor",
+    "description": "Write and test code in a browser-based editor.",
+    "link": "/code-editor"
+  },
+  {
+    "id": 7,
+    "name": "QR Code Generator",
+    "description": "Generate QR codes for URLs, text, and more.",
+    "link": "/qr-code-generator"
+  },
+  {
+    "id": 8,
+    "name": "Internet Speed Tester",
+    "description": "Check your internet speed in one click.",
+    "link": "/speed-test"
+  }
+
+]
+
+function Cards() {
   return (
     <div className='bg-white'
     >
@@ -19,10 +58,19 @@ function page() {
           />
       </div>
     <div className='min-h-screen flex flex-col px-6 pt-10 lg:px-8  items-center isolate'>
-        <h2 className='py-16 text-4xl text-gray-800 font-bold text-center md:text-6xl'>
-        Free Background Remover
+        <h2 className='text-4xl text-gray-800 font-bold text-center md:text-6xl'>
+        Our Tools
       </h2>
-        <BackgroundRemoverComponent/>
+      <div className="flex flex-wrap justify-center items-center">
+        {data.map((item) => (
+          <a href={item.link} key={item.id} className="m-4">
+            <div className="card">
+              <p className="heading">{item.name}</p>
+              <p>{item.description}</p>
+            </div>
+          </a>
+        ))}
+    </div>
     </div>
     <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
@@ -42,4 +90,4 @@ function page() {
   )
 }
 
-export default page
+export default Cards

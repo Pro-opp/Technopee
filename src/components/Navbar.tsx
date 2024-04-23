@@ -6,7 +6,7 @@ import { Bars3Icon , XMarkIcon} from '@heroicons/react/16/solid';
 const navigation = [
   { name: 'Test-Speed', href: '/Speed-test' },
   { name: 'Youtube Downloader', href: '/youtube-downloader' },
-  { name: 'Bg-Remover', href: '/bg-remover' },
+  { name: 'Bg-Remover', href: '#' },
   { name: 'Company', href: '#' },
 ]
 
