@@ -1,10 +1,12 @@
-import Image from "next/image";
-import { Speedtest } from "@/components/Speedtest";
-import HeroSection from "@/components/HeroSection";
+import React from "react";
+import HeroSection from "@/components/Home/HeroSection";
+import Cards from "@/components/Home/Cards";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-white-700 ">
       <HeroSection/>
+      <Cards/>
     </main>
   );
 }

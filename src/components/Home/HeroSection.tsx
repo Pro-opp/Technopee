@@ -8,7 +8,7 @@ export default function HeroSection() {
   
   return (
     <div className="bg-white">
-      <div className="relative isolate px-7 py-10 lg:px-8" >
+      <div className="relative isolate px-7 pt-10 lg:px-8" >
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
@@ -40,13 +40,13 @@ export default function HeroSection() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="#"
+                href="/sign-up"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Get started
               </a>
-              <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                Learn more <span aria-hidden="true">→</span>
+              <a href="/speed/test" className="text-sm font-semibold leading-6 text-gray-900">
+                Test your internet Speed <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>

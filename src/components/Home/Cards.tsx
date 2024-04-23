@@ -11,31 +11,31 @@ const data = [
     "id": 2,
     "name": "Background Remover",
     "description": "Remove background from images automatically.",
-    "link": "/background-remover"
+    "link": "#r"
   },
   {
     "id": 3,
     "name": "Image Compressor",
     "description": "Compress images to reduce file size without losing quality.",
-    "link": "/image-compressor"
+    "link": "#"
   },
   {
     "id": 4,
     "name": "Code Editor",
     "description": "Write and test code in a browser-based editor.",
-    "link": "/code-editor"
+    "link": "#"
   },
   {
     "id": 7,
     "name": "QR Code Generator",
     "description": "Generate QR codes for URLs, text, and more.",
-    "link": "/qr-code-generator"
+    "link": "#"
   },
   {
     "id": 8,
     "name": "Internet Speed Tester",
     "description": "Check your internet speed in one click.",
-    "link": "/speed-test"
+    "link": "/Speed-test"
   }
 
 ]
@@ -44,7 +44,7 @@ function Cards() {
   return (
     <div className='bg-white'
     >
-      <div className="relative isolate px-6 pt-14 lg:px-8" >
+      <div className="relative isolate px-6 lg:px-8" >
       <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
@@ -58,15 +58,15 @@ function Cards() {
           />
       </div>
     <div className='min-h-screen flex flex-col px-6 pt-10 lg:px-8  items-center isolate'>
-        <h2 className='text-4xl text-gray-800 font-bold text-center md:text-6xl'>
+        <h2 className='text-2xl py-6 text-gray-800 font-bold text-center md:text-6xl'>
         Our Tools
       </h2>
       <div className="flex flex-wrap justify-center items-center">
         {data.map((item) => (
           <a href={item.link} key={item.id} className="m-4">
-            <div className="card">
-              <p className="heading">{item.name}</p>
-              <p>{item.description}</p>
+            <div className="cards p-2">
+              <p className="heading font-mono py-0">{item.name}</p>
+              <p className='text-gray-400 font-serif'>{item.description}</p>
             </div>
           </a>
         ))}
