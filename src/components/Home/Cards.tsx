@@ -64,10 +64,13 @@ function Cards() {
       <div className="flex flex-wrap justify-center items-center">
         {data.map((item) => (
           <a href={item.link} key={item.id} className="m-4">
-            <div className="cards p-2">
-              <p className="heading font-mono py-0">{item.name}</p>
-              <p className='text-gray-400 font-serif'>{item.description}</p>
+            <div className="cards">
+            <div className="cards-details">
+              <p className="text-title">{item.name}</p>
+              <p className="text-body">{item.description}</p>
             </div>
+            <button className="cards-button">Try Now</button>
+          </div>
           </a>
         ))}
     </div>
