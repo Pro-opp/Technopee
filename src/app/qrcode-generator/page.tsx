@@ -1,10 +1,10 @@
 
-import { Speedtest } from '@/components/Speedtest'
+import QRCodeGenerator from '@/components/Qrcode'
 import React from 'react'
 
 function page() {
   return (
-    <div className='bg-white'
+    <div className='bg-white w-full'
     >
       <div className="relative isolate px-6 pt-14 lg:px-8" >
       <div
@@ -19,11 +19,11 @@ function page() {
             }}
           />
       </div>
-    <div className='min-h-screen flex flex-col px-6 pt-10 lg:px-8  items-center isolate'>
+    <div className='min-h-screen flex flex-col pt-10 lg:px-8  items-center isolate w-full'>
         <h2 className='py-16 text-4xl text-gray-800 font-bold text-center md:text-6xl'>
-        Check Your Internet Speed
+        Free Qrcode Generator 
       </h2>
-        <Speedtest />
+        <QRCodeGenerator/>
     </div>
     <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"

@@ -5,7 +5,7 @@ const data = [
     "id": 1,
     "name": "Youtube Video Downloader",
     "description": "Download videos from popular video sharing websites.",
-    "link": "/video-downloader"
+    "link": "/youtube-downloader"
   },
   {
     "id": 2,

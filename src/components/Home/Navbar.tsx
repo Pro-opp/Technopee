@@ -6,7 +6,7 @@ import { Bars3Icon , XMarkIcon} from '@heroicons/react/16/solid';
 const navigation = [
   { name: 'Test-Speed', href: '/Speed-test' },
   { name: 'Youtube Downloader', href: '/youtube-downloader' },
-  { name: 'Bg-Remover', href: '#' },
+  { name: 'Qrcode Generator', href: '/qrcode-generator' },
   { name: 'Company', href: '#' },
 ]
 
@@ -22,7 +22,8 @@ const Navbar: React.FC = () => {
               <img
                 className="h-10 w-auto"
                 src="/favicon.ico"
-                alt=""
+                alt="Technopee"
+                loading='lazy'
               />
             </a>
           </div>
