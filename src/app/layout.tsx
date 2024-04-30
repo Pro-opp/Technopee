@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Home/Navbar";
 import Footer from "@/components/Home/Footer";
 
+import { ReactQueryProvider } from "@/components/providers/react-query-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -18,11 +19,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <ReactQueryProvider>
       <body className={inter.className}>
         <Navbar/>
         {children}
         <Footer/>
         </body>
+        </ReactQueryProvider>
     </html>
   );
 }
