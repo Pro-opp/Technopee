@@ -11,7 +11,7 @@ const data = [
     "id": 2,
     "name": "Instagram Video Downloader",
     "description": "Download any Video or reel from Istagram Quickly.",
-    "link": "#r"
+    "link": "/instagram-downloader"
   },
   {
     "id": 3,
