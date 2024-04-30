@@ -9,8 +9,8 @@ const data = [
   },
   {
     "id": 2,
-    "name": "Background Remover",
-    "description": "Remove background from images automatically.",
+    "name": "Instagram Video Downloader",
+    "description": "Download any Video or reel from Istagram Quickly.",
     "link": "#r"
   },
   {

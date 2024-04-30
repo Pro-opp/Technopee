@@ -7,7 +7,7 @@ const navigation = [
   { name: 'Test-Speed', href: '/Speed-test' },
   { name: 'Youtube Downloader', href: '/youtube-downloader' },
   { name: 'Qrcode Generator', href: '/qrcode-generator' },
-  { name: 'Company', href: '#' },
+  { name: 'Instagram Downloader', href: '/instagram-downloader' },
 ]
 
 const Navbar: React.FC = () => {
