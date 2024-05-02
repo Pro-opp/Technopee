@@ -41,12 +41,12 @@ export default function HeroSection() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="/sign-up"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 cursor-pointer"
               >
                 Get started
               </a>
-              <a href="/speed/test" className="text-sm font-semibold leading-6 text-gray-900">
-                Test your internet Speed <span aria-hidden="true">→</span>
+              <a href="/speed-test" className="text-sm font-semibold leading-6 text-gray-900 hidden cursor-pointer sm:flex">
+                Test your Internet Speed <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>

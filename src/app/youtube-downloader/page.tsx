@@ -19,7 +19,7 @@ const page  = () => {
           />
       </div>
     <div className='min-h-screen flex flex-col md:p-6 pt-6 md:pt-14 lg:px-8  items-center isolate'>
-        <h1 className='md:py-10 py-4 text-2xl font-bold text-center md:text-6xl'>Youtube Downloader</h1>
+        <h1 className='md:py-10 py-4 text-2xl font-bold text-center md:text-6xl text-black'>Youtube Downloader</h1>
         <Navbar/>
     </div>
     <div

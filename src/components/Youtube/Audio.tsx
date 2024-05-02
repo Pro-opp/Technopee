@@ -35,7 +35,7 @@ function Audio() {
             placeholder="Enter YouTube Video URL"
             value={videoUrl}
             onChange={handleVideoUrlChange}
-            className="flex-1 w-full border border-gray-300 rounded-md px-3 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            className="flex-1 w-full border border-gray-300 rounded-md px-3 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-black"
           />
           <button className="Download-button md:m-2 my-2 w-full md:w-auto justify-center" onClick={handleDownload}>
             
