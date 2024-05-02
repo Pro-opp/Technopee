@@ -17,7 +17,7 @@ const data = [
     "id": 3,
     "name": "Image Compressor",
     "description": "Compress images to reduce file size without losing quality.",
-    "link": "#"
+    "link": "/compressor"
   },
   {
     "id": 4,

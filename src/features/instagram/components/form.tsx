@@ -42,6 +42,7 @@ export function InstagramVideoForm() {
       const videoInfo = await getVideoInfo({ postUrl });
 
       const { filename, videoUrl } = videoInfo;
+      
       const link = document.createElement('a');
       link.href = videoUrl;
       link.download = filename || 'video.mp4'; 
