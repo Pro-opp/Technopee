@@ -66,7 +66,7 @@ const ImageCompressor: React.FC = () => {
         <div className='items-center justify-center flex flex-col'>
           <h2 className='text-2xl font-semibold py-3 text-center'>Compressed Image</h2>
           <img src={compressedImageUrl} alt="Compressed Image" style={{ maxWidth: '100%', maxHeight: '300px' }} />
-          <p className="text-lg py-2">Size: {compressedImageSize}</p>
+          <p className="text-lg py-2">Size : {compressedImageSize}</p>
           <button className='Download-button my-3 items-center' onClick={handleDownload}>Download Compressed Image</button>
         </div>
       )}
